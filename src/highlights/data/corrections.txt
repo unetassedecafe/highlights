@@ -1,0 +1,73 @@
+# Corrections Whisper — ce qu'il écrit → ce qu'il faut lire
+# Une règle par ligne, insensible à la casse, mots entiers uniquement.
+
+Talos Linux => Talos
+talos => Talos
+kubernetess => Kubernetes
+kubernetes => Kubernetes
+cube virt => KubeVirt
+kube vert => KubeVirt
+cilium tetrago => Cilium Tetragon
+sillium => Cilium
+séphale => Ceph
+ceph => Ceph
+# Pas de règle "et cetera => etcd" : la locution latine est légitime et le
+# remplacement produit "etcd, etcd" dans une phrase française correcte.
+et cd => etcd
+argo cd => ArgoCD
+argocd => ArgoCD
+flux cd => FluxCD
+kargo => Kargo
+# Pas de règle "cargo => Kargo" : Cargo est le gestionnaire de paquets Rust,
+# cité aussi souvent que Kargo sur une émission DevOps.
+kub Prometheus => KubePrometheus
+kubprometheus => KubePrometheus
+open telemetry => OpenTelemetry
+open telemetrie => OpenTelemetry
+sick nose => SigNoz
+signos => SigNoz
+click house => ClickHouse
+quick wit => Quickwit
+quivre => KubeVirt
+proxmox => Proxmox
+xcp ng => XCP-ng
+xcpenge => XCP-ng
+infomaniak => Infomaniak
+téraforme => Terraform
+terraform => Terraform
+anssibeul => Ansible
+ansible => Ansible
+boutec => bootc
+core os => CoreOS
+podmanne => Podman
+wireguard => WireGuard
+net bird => NetBird
+# Pas de règle "traffic => Traefik" : "traffic" est un mot anglais courant et
+# le remplacement produit "Traefik network is fine".
+traefik => Traefik
+authentique => Authentik
+key cloak => Keycloak
+git ops => GitOps
+gitops => GitOps
+# Noms propres de l'émission, constatés sur un vrai VOD (2026-11-24)
+quistop => CuistOps
+quistoaps => CuistOps
+quisto => CuistOps
+qstops => CuistOps
+cuistop => CuistOps
+# Pas de règle pour "guelle"/"gueule" : le mot est légitime en français, et une
+# correction aveugle réécrit du vocabulaire correct. Les prénoms seront revus à
+# la main dans le transcript, pas par dictionnaire.
+joelle => Joël
+# Constaté sur un vrai clip Dapr (modèle small, 2026-11-23)
+piton => Python
+piéton => Python
+node hap => Node.js
+new order => New Relic
+zip teen => Zipkin
+zipkine => Zipkin
+# Constaté sur l'extrait du VOD (2026-11-24) : produits mal entendus
+rust fs => RustFS
+radoze gateway => Rook Gateway
+rook gatewai => Rook Gateway
+minali => MinIO
